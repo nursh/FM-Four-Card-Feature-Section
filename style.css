@@ -26,7 +26,8 @@ body {
 }
 
 h1,
-p {
+p,
+article h2 {
   margin: 0;
   padding: 0;
 }
@@ -37,6 +38,7 @@ h1 {
   color: var(--clr-gray);
   letter-spacing: 0.167px;
   text-align: center;
+  margin-bottom: 1em;
 }
 
 h1 span {
@@ -46,4 +48,45 @@ h1 span {
 p {
   font-weight: 300;
   font-size: var(--text-3);
+  text-align: center;
+}
+
+article {
+  background-color: rgb(255, 255, 255);
+  box-shadow: var(--mbl-box-shadow);
+  padding: 1.75em;
+  border-radius: 0.5em;
+  max-width: 22rem;
+  justify-self: center;
+}
+
+article:not(:last-child) {
+  margin-bottom: 1.6em;
+}
+
+article p {
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.supervisor {
+  margin-top: 4.75em;
+  border-top: 3px solid var(--clr-green);
+}
+
+.team-builder {
+  border-top: 3px solid var(--clr-red);
+}
+
+.karma {
+  border-top: 3px solid var(--clr-yellow);
+}
+
+.calculator {
+  border-top: 3px solid var(--clr-blue);
+}
+
+article img {
+  display: block;
+  margin-left: auto;
 }
