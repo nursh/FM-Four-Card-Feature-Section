@@ -1,3 +1,14 @@
 :root {
-  
+  --clr-red: #EA5454;
+  --clr-green: #44D3D2;
+  --clr-yellow: #FCAE4A;
+  --clr-blue: #549EF2;
+  --clr-gray: #4D4F62;
+
+  --mbl-text-1: 1.5rem;
+  --text-2: 1.25rem;
+  --text-3: 0.9375rem;
+  --text-4: 0.8125rem; 
+
+  --dsk-text-1: 2.25rem;
 }
